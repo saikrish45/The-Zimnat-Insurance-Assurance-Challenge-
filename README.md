@@ -1,3 +1,8 @@
+## Ranked 9th in this Hackathon.
+
+Below is the link for this hackathon for more details.
+https://zindi.africa/hackathons/the-zimnat-insurance-assurance-challenge 
+
 # Overview
 During a crisis like COVID-19, we recognize the crucial role that insurance can play in our ability to weather an unexpected storm. Insurance products help people and their families access the financial and medical support they need when they need the help the most.
 
@@ -19,9 +24,15 @@ sample_submission.csv contains rows for the remaining Policy IDs (with ‘?’s 
 
 Files available for download
 client_data.csv - Contains some personal information on the principal member, such as location, branch and agent code, age etc.
+
 payment_history.csv - Contains payment history up to the end of 2018 tied to Policy ID. Payments made in 2019 are not provided.
+
 policy_data.csv - Describes the policies themselves. There may be multiple rows for each Policy ID since policies can cover more than one person.
-train.csv - contains a list of all the policies. Policies that lapsed in 2017, 2018 or 2019 are identified with a 1 in the ‘Lapse’ column, and the year is provided. The policies with a '?' in the 'Lapse' and 'Lapse Year' column are the policies that remained and had not lapsed as of the end of 2019. You must estimate the likelihood that these policies lapsed or not in 2020.
+
+train.csv - contains a list of all the policies. Policies that lapsed in 2017, 2018 or 2019 are identified with a 1 in the ‘Lapse’ column, and the year is provided.
+
+The policies with a '?' in the 'Lapse' and 'Lapse Year' column are the policies that remained and had not lapsed as of the end of 2019. You must estimate the likelihood that these policies lapsed or not in 2020.
+
 sample_submission.csv - is an example of what your submission should look like. The order of the rows does not matter but the name of the ID must be correct.
 variable_defintions.txt - definitions of the variables
 
